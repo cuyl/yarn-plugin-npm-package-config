@@ -1,4 +1,4 @@
-import {Plugin, Project} from '@yarnpkg/core';
+import {Plugin} from '@yarnpkg/core';
 
 const plugin: Plugin = {
   hooks: {
