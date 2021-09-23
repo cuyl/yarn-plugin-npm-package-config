@@ -1,0 +1,20 @@
+{
+  "name": "yarn-plugin-npm-package-config",
+  "packageManager": "yarn@3.0.2",
+  "main": "./sources/index.ts",
+  "config": {
+    "test": 1000
+  },
+  "dependencies": {
+    "@types/node": "^12.0.0",
+    "@yarnpkg/builder": "^3.1.0-rc.3",
+    "@yarnpkg/cli": "^3.1.0-rc.6",
+    "@yarnpkg/core": "^3.1.0-rc.7",
+    "clipanion": "^3.0.1",
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "build": "builder build plugin",
+    "test": "echo $npm_package_config_test"
+  }
+}
